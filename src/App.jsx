@@ -8,7 +8,6 @@ function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles />
       <h1>My contacts</h1>
-      <button type="button">oi</button>
     </ThemeProvider>
   );
 }
