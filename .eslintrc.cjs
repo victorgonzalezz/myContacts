@@ -33,5 +33,6 @@ module.exports = {
       ignoreComments: true,
     }],
     'import/prefer-default-export': 'off',
+    ObjectExpression: { multiline: true, minProperties: 1 },
   },
 };
