@@ -22,8 +22,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    // 'react/jsx-uses-react': 'off',
-    // 'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       1, { extensions: ['.js', 'jsx'] },
     ],
@@ -34,5 +32,6 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreComments: true,
     }],
+    'import/prefer-default-export': 'off',
   },
 };
