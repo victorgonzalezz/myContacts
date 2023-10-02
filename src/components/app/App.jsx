@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 import GlobalStyles from '../../assets/styles/global';
@@ -14,10 +14,10 @@ function App() {
     <BrowserRouter>
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyles />
-          <Container>
-            <Header />
-            <Routes />
-          </Container>
+        <Container>
+          <Header />
+          <Routes />
+        </Container>
       </ThemeProvider>
     </BrowserRouter>
   );

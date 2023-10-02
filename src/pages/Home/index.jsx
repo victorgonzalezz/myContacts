@@ -1,4 +1,6 @@
-import { Container, InputContainer, Header, ListContainer, Card } from './styles';
+import {
+  Container, InputContainer, Header, ListContainer, Card,
+} from './styles';
 
 import arrow from '../../assets/images/icons/arrow.svg';
 import check from '../../assets/images/icons/check.svg';
@@ -37,7 +39,7 @@ export default function Home() {
             <a href="/">
               <img src={check} alt="Edit" />
             </a>
-            <button type='button'>
+            <button type="button">
               <img src={trash} alt="Lixeira" />
             </button>
           </div>
@@ -56,7 +58,7 @@ export default function Home() {
             <a href="/">
               <img src={check} alt="Edit" />
             </a>
-            <button type='button'>
+            <button type="button">
               <img src={trash} alt="Lixeira" />
             </button>
           </div>
@@ -75,7 +77,7 @@ export default function Home() {
             <a href="/">
               <img src={check} alt="Edit" />
             </a>
-            <button type='button'>
+            <button type="button">
               <img src={trash} alt="Lixeira" />
             </button>
           </div>

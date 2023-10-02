@@ -1,4 +1,9 @@
+import PageHeader from '../../components/PageHeader/pageHeader';
 
 export default function EditContact() {
-  return "Edit Contact"
+  return (
+    <PageHeader
+      title="Editar Victor Gonzalez"
+    />
+  );
 }
