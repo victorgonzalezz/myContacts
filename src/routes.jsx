@@ -1,6 +1,6 @@
 import { Switch, Route } from 'react-router-dom'
 
-import Home from './pages/Home/home'
+import Home from './pages/Home/index'
 import NewContact from './pages/NewContact/newContact'
 import EditContact from './pages/EditContact/editContact'
 
