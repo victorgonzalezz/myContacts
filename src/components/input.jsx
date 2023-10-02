@@ -14,7 +14,7 @@ export default styled.input`
   transition: border-color 0.2s ease-in;
 
   &:focus {
-    border: 2px solid ${({ theme }) => theme.colors.primary.main}
+    border: 2px solid ${({ theme }) => theme.colors.primary.main};
   }
 
 `;
