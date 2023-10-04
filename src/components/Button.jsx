@@ -35,8 +35,7 @@ background: ${theme.colors.danger.main};
 
 &:active {
   background: ${theme.colors.danger.dark};
-
 }
-`}
 
+`}
 `;
